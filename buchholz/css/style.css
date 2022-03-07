@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 1400px;
+    margin: 0 auto;
+ }
+
+
+/*header*/
+
+header {
+    padding: 0 auto; 
+}
+header .topo{
+    max-width: 1200px;
+}
+
+header .logo img{
+    float: left;
+    width: 270px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+header .container nav{
+    float: right;
+    margin-top: 1%;
+    cursor: pointer;
+    
+}
+
+header nav ul{
+    list-style-type: none;
+    
+}
+ 
+header .container nav ul li{
+    float: left;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: blue;
+    
+}
+
+/*Apresentação*/
+
+.apresentacao .container{
+    text-align: center;
+    width: 100%;
+}
+
+.polaroid{
+
+    width: 100%;
+    background-color: rgb(238, 240, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 15px;
+}
+
+.polaroid img{
+    max-width: 80%;
+}
+
+.polaroid .polaroid-texto h2{
+    padding: 10px;
+}
+
+.polaroid .polaroid-texto p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Contato*/
+
+.contato {
+
+    width: 100%;
+    height: 300px ;
+    background-color: white;     
+}
+
+.form{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgb(183, 186, 196);
+}
+
+.form h2{
+    margin-left: 33%;    
+}
+.form form{
+    margin-left: 100px;
+    
+}
+
+
+.form form input[type=text]{
+    width: 90%;
+    max-width: 480px;
+    margin-top: 6px;
+    height: 30px;
+    padding-left: 8px;
+    line-height: 50px;
+    border: 1px solid rgb(200, 200, 200);
+    
+}
+
+.form form textarea{
+    resize: none;
+    width: 90%;
+    margin-top: 8px;
+    max-width: 480px;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 100px;
+    
+}
+
+.form form input[type=submit]{
+    border: 0;
+    background-color: blue;
+    width: 165px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 30px;
+}
+
+
+.contato-autor{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgb(183, 186, 196);
+}
+
+.contato-autor h2{
+    margin-left: 40%;
+}
+
+.contato-autor .contato-part{
+    width: 580px;
+    height: 165px;
+    margin: 30px auto;
+    margin-left: 20px;
+    background-color: white;    
+}
+
+.contato-autor .contato-part p{
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 400px;
+    padding: 10px;
+}
+
+/* footer */
+
+footer .container{
+    background-color: rgb(183, 186, 196);
+    height: 70px;
+
+ }
+
+footer .autor img{
+    float: left;
+    margin-left: 400px;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+
+}
+footer p{ 
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 400px;   
+    
+}
